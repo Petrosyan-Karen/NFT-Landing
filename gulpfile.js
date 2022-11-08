@@ -25,7 +25,7 @@ import {ftp} from "./gulp/tasks/ftp.js";
 import ghPages from 'gh-pages';
 
 
-gulp.task('deploy', function() {
+gulp.task('deployGit', function() {
 	return gulp.src('./dist/**/*')
 		 .pipe(ghPages());
 });

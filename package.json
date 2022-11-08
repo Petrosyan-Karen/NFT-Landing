@@ -10,7 +10,8 @@
     "build": "gulp build --build",
     "svgSprive": "gulp svgSprive",
     "zip": "gulp deployZIP --build",
-    "deploy": "gulp deployFTP --build && gh-pages -d dist"
+    "deploy": "gulp deployFTP --build",
+    "deployGit": "npm run build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
