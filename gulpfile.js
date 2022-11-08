@@ -25,6 +25,11 @@ import {ftp} from "./gulp/tasks/ftp.js";
 import ghPages from 'gh-pages';
 
 
+gulp.task('deploy', function() {
+	return gulp.src('./dist/**/*')
+		 .pipe(ghPages());
+});
+
 function watcher() {
 	gulp.watch(path.watch.files, copy);
 	gulp.watch(path.watch.html, html);

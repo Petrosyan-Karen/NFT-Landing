@@ -4,13 +4,13 @@
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
-  "homepage": "https://k555218.github.io/",
+  "homepage": "https://k555218.github.io/NFT-Landing",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build --build",
     "svgSprive": "gulp svgSprive",
     "zip": "gulp deployZIP --build",
-    "deploy": "gulp deployFTP --build && gh-pages -d build"
+    "deploy": "gulp deployFTP --build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
