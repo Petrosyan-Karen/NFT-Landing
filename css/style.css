@@ -3574,7 +3574,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 .no-webp .first__nft {
-  background: url("../img/nft-item.jpg"); }
+  background: url("../../img/nft-item.jpg"); }
 
 .first__nft {
   max-width: 550px;
@@ -4937,7 +4937,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .webp .first { background-image: url(../../img/bg.effect.webp); }
 
-.webp .first__nft { background: url(../img/nft-item.webp); }
+.webp .first__nft { background: url(../../img/nft-item.webp); }
 
 .webp .auctions { background-image: url(../../img/auctions-efffect.webp); }
 
